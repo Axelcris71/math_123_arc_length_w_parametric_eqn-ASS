@@ -20,7 +20,6 @@
 \usepackage{multirow} %% Merging rows in tables
 \usepackage{float}
 \usepackage{xcolor}
-\usepackage[table,xcdraw]{xcolor} %% used for coloring cells in tables
 \usepackage{fancyhdr} %% Allows custom heading and footer
 \usepackage{lastpage} %% Allows Referencing the last page of the document
 \usepackage{calc}
@@ -34,8 +33,10 @@
 \usetikzlibrary{angles}
 \usetikzlibrary{intersections,decorations.pathreplacing,positioning}
 \usetikzlibrary{arrows.meta}
-\pgfplotsset{compat=1.18}
 \usepgfplotslibrary{polar}
+\usetikzlibrary{backgrounds}
+\usetikzlibrary{positioning}
+\pgfplotsset{compat=newest}
 
 \usepackage{amsthm}
 
@@ -45,12 +46,6 @@
 \usepackage{mathtools}
 
 \usepackage{enumitem}
-
-\usepackage{array}
-\setlength{\tabcolsep}{10pt}
-\renewcommand{\arraystretch}{1.5}
-\setlength{\arrayrulewidth}{0.35mm}
-\arrayrulecolor{black}
 
 
 %\usepackage[scaled=1.0]{helvet}             % Load Helvetica
